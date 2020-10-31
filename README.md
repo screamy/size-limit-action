@@ -50,7 +50,7 @@ jobs:
       CI_JOB_NUMBER: 1
     steps:
       - uses: actions/checkout@v1
-      - uses: andresz1/size-limit-action@v1.4.0
+      - uses: andresz1/size-limit-action@v1.4.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 ```
@@ -66,7 +66,7 @@ with:
 5. You are now all set
 
 ### Customizing working directory
-    
+
 `directory` option allow to run all the tasks in a subfolder.
 It's only convenient if all your stuff is in a subdirectory of your git repository.
 
